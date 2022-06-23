@@ -8,3 +8,20 @@ const search_url = base_url + '/search/movie?' + api_key;
 
 //get movies to be displayed in Display Section
 const info = document.querySelector(".displayMovie");
+
+//linking API to get Movies
+getMovies(api_url);
+function getMovies(api_url) {   
+        fetch(api_url)
+        .then(function(response) { 
+            return response.json()
+        })
+        .then(function (data){            
+            if(data.results){
+                showMovies(data.results);              
+            }else{
+                info.innerHTML= `<h2 class="no-reults">No Matching Results Were Found<h2>`;
+            }
+        })
+        .catch(error => console.log(error))
+}
