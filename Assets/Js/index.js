@@ -54,3 +54,12 @@ function showMovies(data) {
         info.appendChild(movie_element);
     });
  }
+
+ //function concatinating movie title
+ function TitleConcatinate(title) {   
+    if(title.length >= 30) {
+        return (title.substring(0,30) + "....");
+    } else {
+       return title;
+    }
+ }
