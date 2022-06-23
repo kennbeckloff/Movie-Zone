@@ -90,5 +90,9 @@ document.getElementById('form').addEventListener('submit' , (event) => {
 document.getElementById('search-container').addEventListener('click' , (event) => {
     event.preventDefault();
     const searchItem = search.value;
-    
+    if(searchItem) {
+        getMovies(search_url + '&query=' + searchItem)
+    } else {
+        getMovies(`https://api.themoviedb.org/3/movie/550?api_key=864abc344e6193436694c57936f427a3`)
+    }    
 })
