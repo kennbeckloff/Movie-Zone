@@ -2,6 +2,9 @@
     padding: 0px;
     padding-top: 5px;
     margin: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    transition: all ease-in-out 0.5s
 }
 body{
    background-image: url(../Images/bg1.jpg);
