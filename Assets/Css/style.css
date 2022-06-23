@@ -89,4 +89,10 @@ input::placeholder {
     font-family: 'Filson',sans-serif;
     font-weight: 100;
 }
+.displayMovie{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    
      
