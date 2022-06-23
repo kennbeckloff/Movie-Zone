@@ -74,3 +74,14 @@ function showMovies(data) {
         return 'red'
     }  
 }
+
+//movie search
+document.getElementById('form').addEventListener('submit' , (event) => {
+    event.preventDefault();
+    const searchItem = search.value;
+    if(searchItem) {
+        getMovies(search_url + '&query=' + searchItem)
+    } else {
+        getMovies(api_url)
+    }    
+})
