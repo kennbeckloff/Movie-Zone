@@ -7,10 +7,10 @@
     transition: all ease-in-out 0.5s
 }
 body{
-   background-image: url();
+   
     background-repeat: no-repeat;
-    opacity: 0.5;   
-    color: white; 
+      
+    background-color: #292828; 
 }
 body #header{
     font-family: 'Fredericka the Great', cursive;
