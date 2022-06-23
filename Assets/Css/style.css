@@ -7,7 +7,7 @@
     transition: all ease-in-out 0.5s
 }
 body{
-   background-image: url(../Images/bg1.jpg);
+   background-image: url();
     background-repeat: no-repeat;
     opacity: 0.5;   
     color: white; 
@@ -25,5 +25,68 @@ body #zone{
     font-family: 'Rubik Moonrocks', cursive;
     font-size: 40px;
     color: rgba(255, 0, 0, 0.692);
+}
+.container {
+    display: flex;    
+    margin: 1rem auto;
+    padding:10px;
+    padding-top: 50px;
+    width: 1000px;
+    background-color: #0e0e0d;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.jumbotron{
+    padding:10px 50px 25px 50px;
+    width: 80%;
+}
+.text-center {
+    display: flex;    
+    justify-content: center; 
+    padding: 10px;
+    font-size: 60px;
+    font-weight: 100px;
+    color: whitesmoke;
+    font-family: 'Filson', sans-serif;           
+}
+.search {
+    width: 100%;
+    border-radius: 0.5rem;
+    font-size: 24px;
+    border:none;
+    outline:none;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .71rem;    
+    height: 55px;
+    letter-spacing: 1.4px;
+    color: rgb(10, 10, 10);
+}
+#form {
+    display: flex;
+}
+#search-container {
+    border: none;
+    outline: none;
+    height: 55px;
+    color: white;
+    margin-left: -10px;
+    padding:15px 32px;
+    background:#E50914;
+    border-radius: 0 5px 5px 0;
+    font-size:20px;
+    font-family: 'Filson',sans-serif;
+    font-weight: bolder;
+    overflow-y: hidden;
+    /* overflow-x: hidden; */
+    cursor:pointer;
+    
+}
+input::placeholder {
+    font-size: 20px;
+    font-family: 'Filson',sans-serif;
+    font-weight: 100;
 }
      

@@ -11,11 +11,34 @@
     <title>Movie-Zone</title>
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-light bg-light">
+    <nav class="navbar fixed-top" style="background-color: black;">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html"><span id="header">Movie</span><span id="zone">-Zone</span></a>
         </div>
-      </nav>
+      </nav><br><br><br><br>
+
+    <section class="main">
+        <div class="container">
+            <div class="jumbotron">
+                <h3 class="text-center">
+                    Search for a movie
+                </h3>
+                <div class="search-Area">
+                    <form  id="form">
+                        <input 
+                            type="text"
+                            placeholder="Type Movie To Search here.." 
+                            id="search" 
+                            class="search" 
+                            onfocus="this.value=''" 
+                            >
+                            <span id="search-container">Search</span>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
     <script src="./Assets/Js/index.js"></script>
 </body>
 </html>
