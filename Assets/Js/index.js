@@ -63,3 +63,14 @@ function showMovies(data) {
        return title;
     }
  }
+
+ //function to Movie Rating
+ function getcolor(rating) {
+    if(rating >=8 ) {
+       return 'green'
+    }else if(rating >=5) {
+    return 'orange'
+    }else {
+        return 'red'
+    }  
+}
