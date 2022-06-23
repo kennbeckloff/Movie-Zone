@@ -85,3 +85,10 @@ document.getElementById('form').addEventListener('submit' , (event) => {
         getMovies(api_url)
     }    
 })
+
+//search items
+document.getElementById('search-container').addEventListener('click' , (event) => {
+    event.preventDefault();
+    const searchItem = search.value;
+    
+})
