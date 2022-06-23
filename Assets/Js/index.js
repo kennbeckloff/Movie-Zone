@@ -25,3 +25,32 @@ function getMovies(api_url) {
         })
         .catch(error => console.log(error))
 }
+
+//calling functions to display Movie Properties
+function showMovies(data) {
+    info.innerHTML = ``;
+    data.forEach(movie => {
+        const {title,poster_path,vote_average,overview} = movie;
+        const movie_element = document.createElement('div');
+        movie_element.classList.add('movie');
+        movie_element.innerHTML = `
+            <img src="${image_base_url + poster_path}" alt="${movie.title}">
+            <div class="movie-info">
+            
+                <h3>${TitleConcatinate(title)}</h3>
+                <span class="${getcolor(vote_average)}" id="green"><i class="fas fa-star"></i>${movie.vote_average}</span>
+            </div>
+            <div class="overview">
+                <h1>${title}</h1>
+                <br>
+                <h2> Release Date:</h2>  <p>${movie.release_date}</p>
+                <h2> Rating:</h2>  <p>${(vote_average).toFixed(2)}</p>
+                <h2>Cast:</h2>  <p></p>
+                <h2>Plot:</h2>
+                <p>${movie.overview}</p>
+            </div>
+        `;
+        //apending child
+        info.appendChild(movie_element);
+    });
+ }
