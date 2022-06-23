@@ -93,6 +93,6 @@ document.getElementById('search-container').addEventListener('click' , (event) =
     if(searchItem) {
         getMovies(search_url + '&query=' + searchItem)
     } else {
-        getMovies(`https://api.themoviedb.org/3/movie/550?api_key=864abc344e6193436694c57936f427a3`)
+        getMovies(`https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=864abc344e6193436694c57936f427a3`)
     }    
 })
