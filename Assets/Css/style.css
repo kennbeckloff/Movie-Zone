@@ -7,10 +7,8 @@
     transition: all ease-in-out 0.5s
 }
 body{
-   
-    background-repeat: no-repeat;
-      
-    background-color: #292828; 
+    background-image: url(../Images/bg1.jpg);
+    background-repeat: repeat;    
 }
 body #header{
     font-family: 'Fredericka the Great', cursive;
@@ -36,6 +34,7 @@ body #zone{
     border-radius: 50px;
     align-items: center;
     justify-content: center;
+    
 }
 .jumbotron{
     padding:10px 50px 25px 50px;
@@ -80,7 +79,6 @@ body #zone{
     font-family: 'Filson',sans-serif;
     font-weight: bolder;
     overflow-y: hidden;
-    /* overflow-x: hidden; */
     cursor:pointer;
     
 }
@@ -185,6 +183,5 @@ input::placeholder {
     color: blue;
     display: block;
     transform: translateX(0%) ;     
-}
-    
+} 
      

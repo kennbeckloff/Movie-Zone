@@ -41,9 +41,9 @@ function showMovies(data) {
                 <span class="${getcolor(vote_average)}" id="green"><i class="fas fa-star"></i>${movie.vote_average}</span>
             </div>
             <div class="overview">
-                <h1>${title}</h1>
+                <h3>${title}</h3>
                 <br>
-                <h2> Release Date:</h2>  <p>${movie.release_date}</p>
+                <h6> Release Date:</h6>  <p>${movie.release_date}</p>
                 <h2> Rating:</h2>  <p>${(vote_average).toFixed(2)}</p>
                 <h2>Cast:</h2>  <p></p>
                 <h2>Plot:</h2>
@@ -58,7 +58,7 @@ function showMovies(data) {
  //function concatinating movie title
  function TitleConcatinate(title) {   
     if(title.length >= 30) {
-        return (title.substring(0,30) + "....");
+        return (title.substring(0,30) + "...");
     } else {
        return title;
     }
