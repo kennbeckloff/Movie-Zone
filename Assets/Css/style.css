@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    padding-top: 5px;
+    margin: 0px;
+}
+body{
+   background-image: url(../Images/bg1.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.5;   
+    color: white; 
+}
+body #header{
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 50px;
+    color: red;
+}
+body #zone{
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 40px;
+    color: rgba(255, 0, 0, 0.692);
+}
+     
