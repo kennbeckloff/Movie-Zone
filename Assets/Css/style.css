@@ -200,8 +200,8 @@ input::placeholder {
     margin: auto;
     text-align: center;
     justify-content: center;
-    font-size: 25px;
-    font-family: 'Rubik Moonrocks', cursive;
-    color: red;
+    font-size: 20px;
+    
+    color: black
     
 }
