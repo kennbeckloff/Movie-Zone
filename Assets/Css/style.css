@@ -11,15 +11,12 @@ body{
     background-repeat: repeat;    
 }
 body #header{
-    font-family: 'Fredericka the Great', cursive;
-    font-family: 'Monoton', cursive;
     font-family: 'Rubik Moonrocks', cursive;
     font-size: 50px;
     color: red;
+    text-align: center;
 }
 body #zone{
-    font-family: 'Fredericka the Great', cursive;
-    font-family: 'Monoton', cursive;
     font-family: 'Rubik Moonrocks', cursive;
     font-size: 40px;
     color: rgba(255, 0, 0, 0.692);
@@ -186,4 +183,11 @@ input::placeholder {
     transform: translateX(0%) ;     
 }    
 
-
+.footer{
+    background: linear-gradient(to left bottom,red,#292828);
+    align-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Rubik Moonrocks', cursive;
+    color: black;
+}
