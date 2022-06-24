@@ -94,7 +94,8 @@ input::placeholder {
 }
 .movie {
     position: relative;
-    width:360px;
+    width:370px;
+    height: 600px;
     margin: 24px;
     border-radius: 5px;    
     padding-bottom:auto;
