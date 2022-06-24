@@ -106,7 +106,7 @@ input::placeholder {
     width: 90%;
     height: 80%;
     display: flex;
-    margin: 16px;
+    margin: 10px;
     border-radius: 18px;
 }
 .movie-info h3 {
@@ -114,12 +114,17 @@ input::placeholder {
     font-weight: 100;
     margin-top: 0;
     margin-right:15px;
+    overflow: hidden;
 }
 .overview h1 {
-    font-size:27px;
+    font-size:22px;
+    overflow: hidden;
+    color: #0e0e0d;
 }
 .overview h2{
     font-size: 21px;
+    overflow: hidden;
+    color: #0e0e0d;
 }
 .movie-info {
     color:white;

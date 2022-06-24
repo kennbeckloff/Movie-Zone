@@ -41,9 +41,9 @@ function showMovies(data) {
                 <span class="${getcolor(vote_average)}" id="green"><i class="fas fa-star"></i>${movie.vote_average}</span>
             </div>
             <div class="overview">
-                <h3>${title}</h3>
+                <h1>${title}</h1>
                 <br>
-                <h6> Release Date:</h6>  <p>${movie.release_date}</p>
+                <h2> Release Date:</h2>  <p>${movie.release_date}</p>
                 <h2> Rating:</h2>  <p>${(vote_average).toFixed(2)}</p>
                 <h2>Cast:</h2>  <p></p>
                 <h2>Plot:</h2>
