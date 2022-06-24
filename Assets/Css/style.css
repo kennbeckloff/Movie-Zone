@@ -117,14 +117,16 @@ input::placeholder {
     overflow: hidden;
 }
 .overview h1 {
-    font-size:22px;
+    font-size:32px;
     overflow: hidden;
     color: #0e0e0d;
+    font-weight: bold;
 }
 .overview h2{
-    font-size: 21px;
+    font-size: 25px;
     overflow: hidden;
     color: #0e0e0d;
+    font-weight: bold;
 }
 .movie-info {
     color:white;
