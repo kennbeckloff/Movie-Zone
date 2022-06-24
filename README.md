@@ -33,7 +33,7 @@ Using The Movie Database Api to get list of Movies and reviews that that help mo
 Use Live share extension to run the HTML File.
 *****
 ## Live Link
-Or you can access the web application directly via this [LINK.]([https://kennbeckloff.github.io/Movie-Zone/])
+Or you can access the web application directly via this [https://kennbeckloff.github.io/Movie-Zone/]
 *****
 
 ## Technologies Used
