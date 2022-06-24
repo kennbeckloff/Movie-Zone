@@ -10,7 +10,7 @@ const search_url = base_url + '/search/movie?' + api_key;
 const info = document.querySelector(".displayMovie");
 
 //linking API to get Movies
-getMovies(`https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=864abc344e6193436694c57936f427a3&page=${Math.floor(Math.random() * 100) + 1}`);
+getMovies(`https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=864abc344e6193436694c57936f427a3&page=${Math.floor(Math.random() * 10) + 1}`);
 function getMovies(api_url) {   
         fetch(api_url)
         .then(function(response) { 
