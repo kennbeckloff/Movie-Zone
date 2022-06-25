@@ -177,7 +177,7 @@ input::placeholder {
     left:0;
     right:0;
     height: 80%;
-    bottom:110px;
+    bottom: 110px;
     background-color: white;
     padding: 16px;
     transform:translateX(101%) translateY(101%);
