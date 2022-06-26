@@ -91,7 +91,7 @@ input::placeholder {
 }
 .movie {
     position: relative;
-    width:370px;
+    width:340px;
     height: 600px;
     margin: 24px;
     border-radius: 40px;    
@@ -177,7 +177,7 @@ input::placeholder {
     left:0;
     right:0;
     height: 80%;
-    bottom:110px;
+    bottom: 110px;
     background-color: white;
     padding: 16px;
     transform:translateX(101%) translateY(101%);
@@ -200,8 +200,8 @@ input::placeholder {
     margin: auto;
     text-align: center;
     justify-content: center;
-    font-size: 25px;
-    font-family: 'Rubik Moonrocks', cursive;
-    color: red;
+    font-size: 20px;
+    
+    color: black
     
 }
